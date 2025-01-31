@@ -1,0 +1,522 @@
+body{
+    background-image: url("1.png");
+    background-repeat: no-repeat ;
+    background-size:cover;
+    background-color: rgb(254, 244, 244);
+    background-size: contain ;
+    font-family: "Roboto", serif;
+}
+
+
+html {
+scroll-behavior: smooth;
+}
+
+a {
+text-decoration: none;
+color: black;
+
+}
+
+li {
+transition: 1.3s ease;
+font-size: 3vh;
+font-weight: 500;
+}
+
+
+li:hover {
+transform: scale(1.3);
+cursor: pointer;
+}
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 80%;
+  margin-left: 150px ;
+ }
+
+.header ul{
+transition: transform 0.7s ease, font-size 0.7s ease;
+z-index: 10;
+list-style: none;
+display: flex;
+gap: 20vh;
+color: rgb(0, 0, 0);
+}
+
+
+.head{
+  display: flex;
+  z-index: 10;
+  display: flex;
+  font-family: "Roboto", serif;
+  font-size:2.5vh;
+  gap: 4vh;
+ }
+
+
+
+
+
+
+#intro{
+display: flex;
+justify-content: center;
+font-size: 2vh;
+color: black;
+padding: 450px 0px 0px 0px;
+text-shadow: 0px 0px 1px black;
+}
+
+
+
+
+
+#arrow {
+  display: flex;
+  justify-content: center;
+  animation: bounce 2s infinite;
+  padding: 0px 0px 500px 0px;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-10px);
+  }
+  60% {
+      transform: translateY(-5px);
+  }
+}
+
+#navn{
+font-size: 5vh;
+color: black;
+padding: 0px 0px 0px 1000px;
+margin: -200px 0px -550px -110px ;
+transform: rotate(-15deg);
+}
+
+.bildeavmeg{
+width: 80%;
+height: 80%;
+margin: 0px 0px 0px 300px;
+}
+
+
+
+.bildeogfigur{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#figur{
+z-index: -1;
+margin: 0px 0px 0px -500px;
+}
+.figurr{
+width: 1300px;
+height: 1300px;
+
+}
+
+
+
+
+
+
+
+.erfaring-layers{
+  z-index: 10;
+}
+.erfaring-layer{
+  z-index: 10;
+}
+#erfaring2{
+z-index: 10;
+margin: 10px 0px -1000px 10px;
+}
+#erfaring3{
+z-index: 10;
+margin: 10px 0px -1000px 10px;
+}
+#erfaring-farge{
+position:absolute;
+z-index: -1;
+}
+
+#erfaring-box{
+  margin: 150px 0px  0px 19px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(0, 255, 255, 0);
+  padding: 10px 10px 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#erfaring-box1{
+color: white;
+margin:10px 0px 10px 10px;
+padding: 10px 10px 400px 10px; 
+
+}
+#erfaring-box2{
+color: rgb(255, 255, 255);
+font-family: "Roboto", 
+serif; font-weight: 500;
+font-size: 65px;
+margin: 0px 0px 0px -700px;
+padding: 0px 0px 0px 0px;
+}
+
+#erfaring-box4{
+background-color: rgba(255, 255, 255, 0.299);
+border: 2px solid black;
+border-radius: 10px;
+margin: 0px 00px 0px 450px;
+padding: 15px 15px 15px 15px;
+width: 400px;
+}
+
+#erfaring-box6{
+background-color: rgba(255, 255, 255, 0.155);
+border: 2px solid black;
+color: rgb(0, 0, 0);
+border-radius: 10px;
+height: 600px;
+margin: 0px 00px 0px -500px;
+padding: 15px 0px 15px 15px;
+width: 400px;
+text-align: left;
+}
+
+
+
+
+#Ferdigheter-farge{
+  position:absolute;
+  z-index: -1;
+
+  }
+
+
+
+
+
+
+
+
+
+/* paparellogrammene */
+.parallelogram1 {
+   z-index: -1;
+  margin: 100px 0px 0px 0px;
+  padding:0px 0px 10px 10px ;
+	width: 1767px;
+	height: 900px;
+  transform: skew(28deg) rotate(28deg);
+  background: linear-gradient(90deg, rgba(232,59,59), rgba(215,33,181) 100%);
+}
+.parallelogram2 {
+   margin: 800px 0px 0px -1108px;
+    z-index: -1;
+    padding:10px 2890px 10px 10px ;
+    width: 10px;
+    height: 1400px;
+    transform: skew(160deg) rotate(160deg);
+    background: linear-gradient(90deg, rgba(64,42,233), rgba(36,24,131) 100%);
+
+}
+  .parallelogram3 {
+  margin: -400px 0px 0px 0px;
+  z-index: -1;
+  padding:10px 0px 10px 10px ;
+	width: 1767px;
+	height: 900px;
+  transform: skew(28deg) rotate(28deg);
+  background: linear-gradient(90deg, rgba(232,59,59), rgba(215,33,181) 100%);
+  }
+
+
+
+
+
+
+
+
+  /* ferdigheter delen*/
+
+#ferdigheter-tekst{
+color: beige;
+margin: 900px 0px 0px 1150px;
+font-size: 6vh;
+
+}
+
+
+#cubicsss{
+margin: -2100px 0px 0px 150px;
+color: beige;
+
+}
+ 
+
+
+.cubics{
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  background-color: #424141;
+  transform: rotate(90deg);
+  width: 70px;
+}
+.cubicss{
+-moz-border-radius: 100px / 50px;
+-webkit-border-radius: 100px / 50px;
+border-radius: 100px / 50px;
+background-color: #fbc000;
+transform: rotate(90deg);
+width: 70px;
+}
+#flex1{
+display: flex;
+align-items: center;
+}
+#cubic1 {
+margin: 2000px 0px 0px 1200px;
+height: 500px;
+}
+#cubic11 {
+margin: -400px 0px 0px 1100px;
+height: 300px;
+}
+#tekst11{
+margin: 2000px 0px 0px 0px;
+}
+#cubic2 {
+margin: -270px 0px 0px 1230px;
+height: 500px;
+}
+#cubic22{
+  margin: -400px 0px 0px 1100px;
+  height: 300px;
+}
+#tekst22{
+margin: -250px 0px 0px 0px;
+}
+#cubic3 {
+  margin: -270px 0px 0px 1040px;
+  height: 500px;
+}
+#cubic33 {
+margin: -400px 0px 0px 1100px;
+height: 300px;
+}
+#cubic4 {
+  margin: -270px 0px 0px 1210px;
+  height: 500px;
+}
+#cubic44 {
+margin: -400px 0px 0px 1100px;
+height: 300px;
+}
+#cubic5 {
+margin: -270px 0px 0px 1200px;
+height: 500px;
+}
+#cubic55 {
+transition: ease 1.3s;
+margin: -450px 0px 0px 1150px;
+height: 400px;   
+}
+
+/* for gøy egt */
+#cubic55:hover {
+  margin: -22em 0em -20em -3em;
+  height: 31em;   
+  transition: ease 1.5s, ease 1s;
+  }
+
+
+
+
+
+
+#arbeid-tekst{
+margin: 1400px 0px 0px 400px;
+color: beige;
+font-size: 90px;
+
+}
+
+#arbeid-tekst2{
+  margin: 100px 0px 0px 400px;
+}
+
+
+
+#flex-arbeid{
+display: flex;
+color:beige;
+}
+
+
+#aktiv-porsjekt1{
+color: beige;
+display: flex;
+margin: 80px 0px 0px 100px;
+background-color: rgb(25, 37, 107);
+border-radius: 25px;
+height: 100px;
+width: 500px;
+align-items: center;
+justify-content: space-evenly;
+}
+#aktiv-prosjekt2{
+background-color: rgb(64, 72, 122);
+padding: 15px;
+border-radius: 15px;  
+}
+
+
+
+
+.mitt-arbeid-layers{
+  z-index: 10;
+}
+.arbeid-layers{
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+.arbeid-layers > div {
+background-color: rgba(240, 248, 255, 0);
+margin: 500px 0px 0px 0px;
+}
+
+#arbeid2{
+  margin: -400px 0px 0px 0px;
+  z-index: 10;
+  width: 550px;
+  height: 520px;
+}
+#arbeid3{
+  margin:-400px 0px 0px 0px;
+  z-index: 10;
+  width: 550px;
+  height:540px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bunnen av nettsiden der man kan kontakte meg */
+
+  .footer{
+margin: 1000px 0px 0px 0px;
+background-color: black;
+height: 1000px;
+
+  }
+
+.foot{
+background-color: black;
+
+
+}
+
+#footer-tekst{
+color:blue;
+
+}
+
+/*responsive / må fikses*/ 
+
+ 
+@media only screen and (min-width: 1280px) and (max-width: 1280px) {
+.header{width: 1050px; padding: 0px; margin: 0px 0px 0px 110px}
+#figur{margin: 0; padding: 0;}
+.figurr{margin: 0em 0em 0em -4em;}
+#bildeavmeg{margin: 0px 0px 0px -9em; width: 6000%;}
+.bildeavmeg{margin: 0em 0em 0em 10em;}
+.bildeogfigur{padding: 0;}
+#navn{margin: -10em 0px -15em -17em;}
+#erfaring-box1{margin: 0em 0em -5em 50em;  }
+#erfaring-box4{margin: 0em 0em 0em 5em ;}
+#erfaring-box6{margin: 0em 0em 0em -17em;}
+
+.parallelogram1{width: 1167px;}
+.parallelogram2{width: 1167px; padding: 0px 70em 0px 0px;}
+.parallelogram3{width: 1167px;}
+
+#ferdigheter-tekst{margin: 25em 0em 0em 17.5em; font-weight: bolder;}
+#cubicsss{margin: -2100px 0px 0em 1em;}
+#flex1{}
+.cubics{}
+.cubicss{margin: 00em 0em 0em 0em;}
+#cubic1{margin:60em 0em -80em 50em; height: 25em;}
+#cubic11{margin:-10.6em 0em 0em 50em;}
+#tekst11{margin: 70em 0em 0em 0em;}
+
+#cubic222{display: flex;}
+#cubic2{margin: -15em 0px 15em 51em; height: 27em;}
+#cubic22{margin: -10.9em 0em 0em -9em;}
+#tekst22{margin: -15em 0em 0em 0em;}
+
+#cubic333{display: flex;}
+#cubic3{margin: -41.2em 0em 0em 39em; width: 4.4em; height: 27em;}
+#cubic33{margin: -30em 0em 0em -9em;}
+#tekst33{margin:  -20em 0em 0em 0em;}
+
+#cubic444{display: flex;}
+#cubic4{margin: -27em 0em 0em 49.5em; height: 27em;}
+#cubic44{margin: -22.9em 0em 0em -9em;}
+#tekst44{margin: -12em 0em 0em 0em; }
+
+#cubic555{display: flex;}
+#cubic5{margin: -20em 0em 0em 49em; height: 27em;}
+#cubic55{margin: -19em 0em 0em -6em;}
+#tekst55{color: beige; margin: -9.5em 0em 0em 0em;}
+
+
+
+
+#arbeid-tekst{margin: 8em 0em 0em 2em;}
+#arbeid-tekst2{margin: 5em 0em 0em 7em ;}
+#aktiv-porsjekt1{margin: 6em 0em 0em 3em;}
+
+
+.arbeid-layers{margin: -7em 0em 0em 0em;}
+}
+
+
+
+
