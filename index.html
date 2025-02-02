@@ -14,7 +14,12 @@
 
 
 
+
+
+    
 </head>
+
+
 <body>
   <br>
 <section class="header">
@@ -23,8 +28,7 @@
         <li><a href="#erfaring-box"> Erfaring</a></li>
         <li><a href="#ferdigheter-tekst">Ferdigheter</a></li>
         <li><a href="#arbeid-tekst"> Mitt arbeid</a></li>
-        <li id="">Info</li>
-        <li id="">Kontakt meg</li>
+        <li><a href="#kontakt-meg-valg">Kontakt meg</a></li>
     </ul>
 </div>
 </section>
@@ -97,11 +101,11 @@
 </div>
     <div></div>
 <div id="erfaring-box4"><H2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Koding <br><br><br></H2>
-  <h4>Jeg har altid vært glad i å kode, jeg kan kode i html, css og python. </h4></div> 
+  <h4>Jeg har altid vært glad i å kode, jeg kan kode i html, css og python. Når det komemr til koding, så føler jeg at jeg lærer det ganske raskt, så om jeg vil lære meg noe nytt, så tar det ofte ikke så lang tid. </h4></div> 
     <div></div>
 <div id="erfaring-box6"><H2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Medie </H2>
   <br><br><h4>Samme som med koding så har jeg også altid vært glad i drive med medie, jeg har drevet med vidio 
-              redigering - davinci resolve, bilde redigering i photoshop - adobe </h4>
+              redigering - davinci resolve, bilde redigering i photoshop - adobe. Jeg er også god med figma. </h4>
 </div>
 </div>
 
@@ -115,7 +119,21 @@
   </div>
 
 
-
+<script>let elementsArray = document.querySelectorAll(".parallelogram2");
+  console.log(elementsArray);
+  window.addEventListener('scroll', fadeIn ); 
+  function fadeIn() {
+      for (var i = 0; i < elementsArray.length; i++) {
+          var elem = elementsArray[i]
+          var distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
+          if (distInView < 0) {
+              elem.classList.add("inView");
+          } else {
+              elem.classList.remove("inView");
+          }
+      }
+  }
+  fadeIn();</script>
 
 
 
@@ -200,28 +218,17 @@
 
 
 
-<footer class="footer">
-<section>
+
 <div class="foot">
-<h4 id="footer-tekst">Kontakt meg her</h4>
+  <div id="kontakt-meg-valg"><h1>Ta kontakt med meg her</h1></div>
+    <div id="ta-kontakt">
+     <div> <button id="footer-buttons"><img id="discord" src="discord.png" alt="discord"></button></div>
+      <div><button id="footer-buttons"><img id="Teams" src="teams.png" alt="teams"></div></button>
+      <div><button id="footer-buttons"><img id="g-mail" src="gmail.png" alt="gmail"></div></button>
+    </div>
 
+    <div id="bla-opp-igjen"><a href="#intro"><h3>Bla opp igjen</h3></a></div>
 </div>
-</section>
-
-
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
